@@ -29,6 +29,50 @@
 				/>
 
 				<field
+					name="register-require_first_name"
+					type="list"
+					label="PLG_USER_PROFILE_FIELD_FIRST_NAME_LABEL"
+					description="PLG_USER_PROFILE_FIELD_FIRST_NAME_DESC"
+					>
+					<option value="2">JOPTION_REQUIRED</option>
+					<option value="1">JOPTION_OPTIONAL</option>
+					<option value="0">JDISABLED</option>
+				</field>
+
+				<field
+					name="register-require_last_name"
+					type="list"
+					label="PLG_USER_PROFILE_FIELD_LAST_NAME_LABEL"
+					description="PLG_USER_PROFILE_FIELD_LAST_NAME_DESC"
+					>
+					<option value="2">JOPTION_REQUIRED</option>
+					<option value="1">JOPTION_OPTIONAL</option>
+					<option value="0">JDISABLED</option>
+				</field>
+
+				<field
+					name="register-require_born_at"
+					type="list"
+					label="PLG_USER_PROFILE_FIELD_BORN_AT_LABEL"
+					description="PLG_USER_PROFILE_FIELD_BORN_AT_DESC"
+					>
+					<option value="2">JOPTION_REQUIRED</option>
+					<option value="1">JOPTION_OPTIONAL</option>
+					<option value="0">JDISABLED</option>
+				</field>
+
+				<field
+					name="register-require_born_at_state"
+					type="list"
+					label="PLG_USER_PROFILE_FIELD_BORN_AT_STATE_LABEL"
+					description="PLG_USER_PROFILE_FIELD_BORN_AT_STATE_DESC"
+					>
+					<option value="2">JOPTION_REQUIRED</option>
+					<option value="1">JOPTION_OPTIONAL</option>
+					<option value="0">JDISABLED</option>
+				</field>
+
+				<field
 					name="register-require_address1"
 					type="list"
 					label="PLG_USER_PROFILE_FIELD_ADDRESS1_LABEL"
@@ -44,6 +88,17 @@
 					type="list"
 					label="PLG_USER_PROFILE_FIELD_ADDRESS2_LABEL"
 					description="PLG_USER_PROFILE_FIELD_ADDRESS2_DESC"
+					>
+					<option value="2">JOPTION_REQUIRED</option>
+					<option value="1">JOPTION_OPTIONAL</option>
+					<option value="0">JDISABLED</option>
+				</field>
+				
+				<field
+					name="register-require_number"
+					type="list"
+					label="PLG_USER_PROFILE_FIELD_NUMBER_LABEL"
+					description="PLG_USER_PROFILE_FIELD_NUMBER_DESC"
 					>
 					<option value="2">JOPTION_REQUIRED</option>
 					<option value="1">JOPTION_OPTIONAL</option>
@@ -99,6 +154,40 @@
 					type="list"
 					label="PLG_USER_PROFILE_FIELD_PHONE_LABEL"
 					description="PLG_USER_PROFILE_FIELD_PHONE_DESC"
+					>
+					<option value="2">JOPTION_REQUIRED</option>
+					<option value="1">JOPTION_OPTIONAL</option>
+					<option value="0">JDISABLED</option>
+				</field>
+				
+				<field
+					name="register-require_profession"
+					type="list"
+					label="PLG_USER_PROFILE_FIELD_PROFESSION_LABEL"
+					description="PLG_USER_PROFILE_FIELD_PROFESSION_DESC"
+					>
+					<option value="2">JOPTION_REQUIRED</option>
+					<option value="1">JOPTION_OPTIONAL</option>
+					<option value="0">JDISABLED</option>
+				</field>
+
+
+				<field
+					name="register-require_googleplus"
+					type="list"
+					label="PLG_USER_PROFILE_FIELD_GOOGLEPLUS_LABEL"
+					description="PLG_USER_PROFILE_FIELD_GOOGLEPLUS_DESC"
+					>
+					<option value="2">JOPTION_REQUIRED</option>
+					<option value="1">JOPTION_OPTIONAL</option>
+					<option value="0">JDISABLED</option>
+				</field>
+
+				<field
+					name="register-require_linkedin"
+					type="list"
+					label="PLG_USER_PROFILE_FIELD_LINKEDIN_LABEL"
+					description="PLG_USER_PROFILE_FIELD_LINKEDIN_DESC"
 					>
 					<option value="2">JOPTION_REQUIRED</option>
 					<option value="1">JOPTION_OPTIONAL</option>
@@ -185,6 +274,50 @@
 				/>
 
 				<field
+					name="register-require_first_name"
+					type="list"
+					label="PLG_USER_PROFILE_FIELD_FIRST_NAME_LABEL"
+					description="PLG_USER_PROFILE_FIELD_FIRST_NAME_DESC"
+					>
+					<option value="2">JOPTION_REQUIRED</option>
+					<option value="1">JOPTION_OPTIONAL</option>
+					<option value="0">JDISABLED</option>
+				</field>
+
+				<field
+					name="register-require_last_name"
+					type="list"
+					label="PLG_USER_PROFILE_FIELD_LAST_NAME_LABEL"
+					description="PLG_USER_PROFILE_FIELD_LAST_NAME_DESC"
+					>
+					<option value="2">JOPTION_REQUIRED</option>
+					<option value="1">JOPTION_OPTIONAL</option>
+					<option value="0">JDISABLED</option>
+				</field>
+
+				<field
+					name="register-require_born_at"
+					type="list"
+					label="PLG_USER_PROFILE_FIELD_BORN_AT_LABEL"
+					description="PLG_USER_PROFILE_FIELD_BORN_AT_DESC"
+					>
+					<option value="2">JOPTION_REQUIRED</option>
+					<option value="1">JOPTION_OPTIONAL</option>
+					<option value="0">JDISABLED</option>
+				</field>
+
+				<field
+					name="register-require_born_at_state"
+					type="list"
+					label="PLG_USER_PROFILE_FIELD_BORN_AT_STATE_LABEL"
+					description="PLG_USER_PROFILE_FIELD_BORN_AT_STATE_DESC"
+					>
+					<option value="2">JOPTION_REQUIRED</option>
+					<option value="1">JOPTION_OPTIONAL</option>
+					<option value="0">JDISABLED</option>
+				</field>
+
+				<field
 					name="profile-require_address1"
 					type="list"
 					label="PLG_USER_PROFILE_FIELD_ADDRESS1_LABEL"
@@ -200,6 +333,17 @@
 					type="list"
 					label="PLG_USER_PROFILE_FIELD_ADDRESS2_LABEL"
 					description="PLG_USER_PROFILE_FIELD_ADDRESS2_DESC"
+					>
+					<option value="2">JOPTION_REQUIRED</option>
+					<option value="1">JOPTION_OPTIONAL</option>
+					<option value="0">JDISABLED</option>
+				</field>
+				
+				<field
+					name="register-require_number"
+					type="list"
+					label="PLG_USER_PROFILE_FIELD_NUMBER_LABEL"
+					description="PLG_USER_PROFILE_FIELD_NUMBER_DESC"
 					>
 					<option value="2">JOPTION_REQUIRED</option>
 					<option value="1">JOPTION_OPTIONAL</option>
@@ -260,6 +404,41 @@
 					<option value="1">JOPTION_OPTIONAL</option>
 					<option value="0">JDISABLED</option>
 				</field>
+				
+				<field
+					name="register-require_profession"
+					type="list"
+					label="PLG_USER_PROFILE_FIELD_PROFESSION_LABEL"
+					description="PLG_USER_PROFILE_FIELD_PROFESSION_DESC"
+					>
+					<option value="2">JOPTION_REQUIRED</option>
+					<option value="1">JOPTION_OPTIONAL</option>
+					<option value="0">JDISABLED</option>
+				</field>
+
+
+				<field
+					name="register-require_googleplus"
+					type="list"
+					label="PLG_USER_PROFILE_FIELD_GOOGLEPLUS_LABEL"
+					description="PLG_USER_PROFILE_FIELD_GOOGLEPLUS_DESC"
+					>
+					<option value="2">JOPTION_REQUIRED</option>
+					<option value="1">JOPTION_OPTIONAL</option>
+					<option value="0">JDISABLED</option>
+				</field>
+
+				<field
+					name="register-require_linkedin"
+					type="list"
+					label="PLG_USER_PROFILE_FIELD_LINKEDIN_LABEL"
+					description="PLG_USER_PROFILE_FIELD_LINKEDIN_DESC"
+					>
+					<option value="2">JOPTION_REQUIRED</option>
+					<option value="1">JOPTION_OPTIONAL</option>
+					<option value="0">JDISABLED</option>
+				</field>
+
 
 				<field
 					name="profile-require_website"
